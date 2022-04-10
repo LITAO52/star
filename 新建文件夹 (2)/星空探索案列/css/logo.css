@@ -1,0 +1,53 @@
+/* 大背景图的设置 */
+body,html{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: brown; */
+  background: url(../img/logo背景图.jpeg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.logo{
+  width: 450px;
+  height: 150px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  /* background-color: brown; */
+}
+.enterBox{
+  width: 400px;
+  height: 350px;
+  background-color: #fff;
+  padding: 0 15px;
+  /* border: 1px solid blue; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.enterText{
+  /* color: #f7f7f7; */
+  font-size: 25px;
+  font-family:'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+/* 字体图标的定位 */
+.layui-form-item{
+  position: relative;
+}
+.layui-icon{
+  position: absolute;
+  top: 10px;
+  left: 9px;
+}
